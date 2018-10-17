@@ -499,7 +499,7 @@ h6,
 
     margin-bottom: .5rem;
 
-    color: #32325d;
+    color: #0962b1;
 }
 
 h1,
@@ -774,7 +774,7 @@ pre code
 {
     .container
     {
-        max-width: 1040px;
+        max-width: 1160px;
     }
 }
 
@@ -10057,13 +10057,13 @@ button.bg-darker:focus
 
 .p-lg
 {
-    padding: 6rem !important;
+    padding: 3rem !important;
 }
 
 .pt-lg,
 .py-lg
 {
-    padding-top: 6rem !important;
+    padding-top:3rem !important;
 }
 
 .pr-lg,
@@ -12318,7 +12318,7 @@ button.bg-darker:focus
 
 .text-primary
 {
-    color:#ef1c24 !important;
+    color:##2c07c3 !important;
 }
 
 a.text-primary:hover,
@@ -12362,7 +12362,7 @@ a.text-info:focus
 
 .text-warning
 {
-    color: #e89109 !important;
+    color: #0962b1 !important;
 }
 
 a.text-warning:hover,
@@ -12627,9 +12627,11 @@ main
 
 main
 {
-    overflow: hidden;
+    overflow: hidden;   
 }
-
+.baidu{
+    background: #0962b1;
+}
 .section-nucleo-icons .icons-container
 {
     position: relative;
@@ -14581,6 +14583,8 @@ a.btn-icon-only
 .card
 {
     position: relative;
+    margin-top:10px;
+    padding: 5px;
 }
 
 .profile-page .card-profile
@@ -14979,7 +14983,7 @@ a.btn-icon-only
 
 .footer
 {
-    padding: 3rem 0; 
+   
 
     background: #f4f5f7;
 }
@@ -16981,7 +16985,7 @@ textarea[resize='horizontal']
 {
     .section-hero
     {
-        height: 100vh;
+        height: 10vh;
         min-height: 500px;
     }
 }
@@ -17477,8 +17481,8 @@ textarea[resize='horizontal']
 
 .section-profile-cover
 {
-    height: 580px;
-
+    height: 88px;
+background: #0962b1;
     background-position: center center; 
     background-size: cover;
 }
@@ -17487,7 +17491,7 @@ textarea[resize='horizontal']
 {
     .section-profile-cover
     {
-        height: 400px;
+       height: 100px;
     }
 }
 
@@ -17566,6 +17570,17 @@ textarea[resize='horizontal']
 
     pointer-events: none;
 }
+.p{
+  
+   color:#fff;
+   font-size: 28px;
+   margin: 0 ;
+   background: #0962b1;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 10px;
+  
+}
 
 p
 {
@@ -17594,7 +17609,7 @@ p
 
 .heading
 {
-    font-size: .95rem;
+    font-size:1.05rem;
     font-weight: 400; 
 
     letter-spacing: .025em;
